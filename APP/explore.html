@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header_01">
+            <div>
+                <img onclick="backIndex()" src="./image/back.png"/>
+            </div>
+            <div class="header_title">
+                <h1 class="zs">Explore</h1>
+                <p class="zz">Brisbane, Australia</p>
+            </div>
+            <div class="header_right">
+                <img src="./image/nl.png"/>
+            </div>
+        </header>
+        
+        <div class="header_box">
+            <h1>Local Recommendations</h1>
+            <div class="search_box">
+                <div class="input_box">
+                    <input type="text" class="form-control-plaintext" id="searchText" placeholder="Search for ..." onchange="changeLocal()"/>
+                </div>
+                <div class="xf_box">
+                    <img src="./image/xf.png"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="address_data_list" id="address_data_list"></div>
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/explore.js"></script>
+    </body>
+</html>
+
+
+
+
+

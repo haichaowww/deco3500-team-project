@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    background: #ededef !important;
+}
+.header_01{
+    display: flex;
+    padding: 2vw;
+}
+.header_02{
+    padding: 2vw;
+    position: fixed;
+}
+.header_01 div img{
+    cursor: pointer;
+}
+.header_01 .header_title{
+    margin-left: 3vw;
+    margin-top: 9px;
+}
+.header_01 .header_right{
+    position: absolute;
+    right: 3vw;
+}
+.header_01 h1{
+    font-weight: bold;
+}
+.zs{
+    color: #d17fff;
+}
+.zz{
+    color: #9a9a9a;
+}
+.logo_box{
+    display: flex;
+}
+.logo_box .logo_img{
+    width: 25%;
+    text-align: center;
+}
+.logo_box .logo_img img{
+    width: 118px;
+    cursor: pointer;
+}
+
+.footer_01{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+    padding: 2vw;
+}
+.footer_01 img{
+    height: 10vh;
+}
+
+.ll_box{
+
+}
+.ll_box p{
+    margin-bottom: 5px;
+}
+.ll_box .white_ll{
+    background: white;
+    width: 25%;
+    margin-left: 3vw;
+    border-radius: 1rem;
+    padding: 1vw;
+}
+.ll_box .green_ll{
+    background: lime;
+    width: 25%;
+    margin-left: 3vw;
+    border-radius: 1rem;
+    padding: 1vw;
+    color: white;
+    margin-top: 2vw;
+    position: absolute;
+    right: 3vw;
+}
+
+.header_img{
+    width: 100vw;
+}
+.header_img img{
+    width: 100%;
+}
+
+.deatils{
+    padding: 3vw 7vw;
+}
+.deatils h1{
+    font-weight: bold;
+    color: #6d44a9;
+}
+.deatils .details_box{
+    display: flex;
+}
+.deatils .details_box .details_list{
+    display: flex;
+    overflow-x: auto;
+}
+.deatils .details_box .details_list .details_row{
+    width: 13vw;
+    background: white;
+    color: #cd47d4;
+    border-radius: 1rem;
+    padding: 16px;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+.deatils .details_box .details_list .details_row h3{
+
+}
+.deatils .details_box .details_list .details_row p{
+    margin-bottom: 3px;
+}
+.deatils .details_box .details_add{
+
+}
+.deatils .details_box .details_add img{
+    height: 4vh;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+
+.day_data_list{
+    margin: 3vw 7vw;
+    border-left: 3px dashed #c6c6c6;
+    padding-left: 3vw;
+    margin-right: 0vw;
+}
+.day_data_list .day_data{
+    margin-bottom: 5vw;
+    width: 73vw;
+}
+.day_data_list .day_data h2{
+    color: #6d44a9;
+    margin-bottom: 1px;
+}
+.day_data_list .day_data p{
+    color: #858789;
+    margin-top: 0px;
+}
+.day_data_list .day_data .day_data_add{
+ 
+}
+.day_data_list .day_data .day_data_add img{
+    width: 100%;
+    height: 23vw;
+    cursor: pointer;
+}
+
+.header_box{
+    padding: 1vw 4vw;
+}
+.header_box h1{
+    color: #15119e;
+    margin-bottom: 15px;
+}
+.header_box .search_box{
+    display: flex;
+}
+.header_box .search_box .input_box{
+    width: 85%;
+    margin-right: 5%;
+}
+.header_box .search_box .input_box input{
+    background: white;
+    border-radius: 11px;
+    padding: 17px;
+    width: 100%;
+}
+.header_box .search_box .xf_box{
+    margin-top: -10px;
+}
+.header_box .search_box .xf_box img{
+
+}
+
+.address_data_list{
+    padding: 1vw 4vw;
+}
+ .address_data{
+    display: flex;
+    margin-bottom: 2vh;
+    background: #e2e2e2;
+    border-radius: 1rem;
+    width: 98%;
+}
+ .address_data .img_box{
+    width: 35%;
+    margin-right: 3%;
+}
+ .address_data .img_box img{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 100%;
+}
+.address_data .tt_box{
+
+}
+.address_data .tt_box h2{
+    margin-top: 1vh;
+    color: #5d27d4;
+    font-weight: bold;
+}
+.address_data .tt_box p{
+    
+}
+ .address_data .tt_box .address_add_box{
+    margin-top: 3vh;
+}
+ .address_data .tt_box .address_add_box .address_add{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #ff37d6;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+ .address_data .tt_box .address_add_box .address_add_plan{
+    cursor: pointer;
+    color: #8b8d8f;
+}
+
+.black{
+    text-align: center;
+    margin-bottom: 21px !important;
+    color: black !important;
+
+}
+
+.flex_map{
+    position: fixed;
+    bottom: 5vh;
+    right: 4vw;
+}
+
+.flex_map img{
+    cursor: pointer;
+}
+
+.map_box{
+    width: 100vw;
+    height: 100vh;
+}
+.map_box img{
+    width: 100vw;
+    height: 100vh;
+}
+#offcanvasBottom{
+    height: 80vh;
+}
+
+@media screen and (max-width: 500px) {
+    .footer_01 img{
+        height: 3vh !important;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footer_01 img{
+        height: 3vh !important;
+    }
+  }
